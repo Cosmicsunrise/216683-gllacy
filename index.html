@@ -3,81 +3,127 @@
 <head>
   <meta charset="utf-8">
   <title>GLLASY SHOP</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&subset=cyrillic" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <div class="wrapper-slider">
-    <header class="main-header">
-      <div class="left-block">
-        <a href="index.html"><img src="#" width="#" height="" alt="Gllasy Shop"></a>
-        <nav class="main-navigation">
-          <ul>
-            <li>
-              <a href="#">Каталог</a>
-            </li>
-            <li>
-              <a href="#">Доставка и оплата</a>
-            </li>
-            <li>
-              <a href="#">О компании</a>
-            </li>
-          </ul>
-        </nav>
+  <header class="main-header">
+    <div class="left-block">
+      <a href="index.html"><img src="C:\Users\mkovrova\Documents\GitHub\216683-gllacy\img\Logo1.svg" width="154" height="64" alt="Gllasy Shop"></a>
+    </div>
+    <nav class="main-navigation">
+      <ul class="DDD">
+        <li><a href="catalog.html">Каталог</a>
+          <div class="navigation-line">
+            <ul class="hidden">
+              <li><b><a href="#">Новинки</a></b></li>
+              <li><a href="catalog.html">Сливочное</a></li>
+              <li><a href="#">Щербеты</a></li>
+              <li><a href="#">Фруктовый лед</a></li>
+              <li><a href="#">Мелорин</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#">Доставка и оплата</a></li>
+        <li><a href="#">О Компании</a></li>
+      </ul>
+    </nav>
+    <div class="customer-panel">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16.687" height="16.688" viewBox="0 0 16.687 16.688">
+        <path id="Лупа" class="loupe" d="M379.155,677.747H378.4l-0.264-.262a6.209,6.209,0,1,0-.675.675l0.263,0.262v0.755l4.773,4.76,1.423-1.422Zm-5.731,0a4.292,4.292,0,1,1,4.3-4.291A4.295,4.295,0,0,1,373.424,677.747Z" transform="translate(-367.219 -667.25)"/>
+      </svg>
+      <div class="main-search">
+        <a href="#"></a>
+        <div class="search-line">
+          <div class="search-field hidden">
+            <form action="#" method="post">
+            <input type="search" name="search" placeholder="Что ищем?">
+            </form>
+          </div>
+        </div>
       </div>
-
-      <div class="user-block right">
-        <a class="search" href="#">Поиск</a>
-        <a class="links_popup_Backet">Корзина</a>
-        <a class="login" href="#">Вход</a>
+      <div class="main-login">
+        <a href="#">Вход</a>
+        <div class="login-line">
+          <div class="login-field hidden">
+            <form action="#" method="post">
+              <input type="text" name="login" id="login-field" placeholder="Электронная почта">
+              <input type="password" name="password" id="password-field" placeholder="Пароль">
+              <button type="submit">Войти</button>
+              <a href="#">Забыли пароль?</a>
+              <a href="#">Новая регистрация</a>
+            </form>
+          </div>
+        </div>
       </div>
-
-      <div class="information right">
-        <p class="mode">С 10 до 20,ежедневно</p>
-        <p class="mode1">8 812 450-25-25</p>
+      <div class="main-basket">
+        <a href="#">Пусто</a>
+        <div class="basket-line">
+          <div class="basket-field">
+            <a href="#"></a>
+            <a href="#"></a>
+          </div>
+        </div>
       </div>
+    </div>
 </header>
 
-<main>
-      <div class="main-headline">
-        <h1>Крем-брюле и пломбир с малиновым джемом</h1>
+  <main>
+      <section class="slider">
+        <p class="mode">С 10 до 20,ежедневно</p>
+        <p class="mode1">8 812 450-25-25</p>
+
+      <div class="slider" id=slider1>
+      <div class="slider-title"><h1>Крем-брюле и пломбир с малиновым джемом</h1></div>
+        <a class="btn btn-big" href="#">Давайте оба!</a>
+     </div>
+
+      <div class="slider" id=slider2>
+      <div class="slider-title"><h1>Шоколадный пломбир и лимонный сорбет</h1></div>
+        <a class="btn btn-big" href="#">Давайте оба!</a>
+      </div>
+      <div class="slider" id=slider3>
+      <div class="slider-title"><h1>Пломбир с помадкой и клубничный щербет</h1></div>
         <a class="btn btn-big" href="#">Давайте оба!</a>
       </div>
 
       <section class="action">
-        <div class="action-left">
+        <div class="action-left raspberry">
           <h2>Малинка даром!</h2>
           <p> При покупке 2 кг любого фруктового мороженного, добавим в ваш заказ банку малинового варенья безплатно.</p>
-          <a class="btn"="#">Хочу варенье!</a>
+          <a href="#">Хочу варенье!</a>
         </div>
 
-        <div class="action-right">
+        <div class="action-right chocolate">
           <h2> Шоколадки даром!</h2>
           <p> При покупки 2 кг пломбира,добавим в ваш заказ упаковку вкуснейшей шоколадной присыпки совершенно безплатно.</p>
-          <a class="btn"="#">Хочу шоколадки!</a>
+          <a href="#">Хочу шоколадки!</a>
         </div>
       </section>
 
 
        <div class="assortiment">
          <div class="product">
-           <img src="#" alt="">
+           <img src="C:\Users\mkovrova\Documents\GitHub\216683-gllacy\img\fillers\creamwithorange.png" alt="Сливочное с апельсиновым джемом и цитрусовой стружкой" width="267" height="267">
            <p class="price">310 &#8381;/кг</p>
            <a href="#" class="product-name">Сливочное с апельсиновым джемом и цитрусовой стружкой </a>
        </div>
 
        <div class="product">
-         <img src="#" alt="">
+         <img src="C:\Users\mkovrova\Documents\GitHub\216683-gllacy\img\fillers\creamycoffee.png" alt="Сливочно-кофейное с кусочками шоколада" width="267" height="267">
          <p class="price">380 &#8381;/кг</p>
          <a href="#" class="product-name">Сливочно-кофейное с кусочками шоколада</a>
        </div>
 
        <div class="product">
-         <img src="#" alt="">
+         <img src="C:\Users\mkovrova\Documents\GitHub\216683-gllacy\img\fillers\creamandstrawberry.png" alt="Сливочно-клуничное с присыпкой из белого шоколада" width="267" height="267">
          <p class="price">355 &#8381;/кг</p>
          <a href="#" class="product-name">Сливочно-клуничное с присыпкой из белого шоколада</a>
        </div>
 
        <div class="product">
-         <img src="#" alt="">
+         <img src="C:\Users\mkovrova\Documents\GitHub\216683-gllacy\img\fillers\Cremebrulee.png" alt="Сливочное крем-брюле с карамельной подливкой" width="267" height="267">
          <p class="price">415 &#8381;/кг </p>
          <a href="#" class="product-name">Сливочное крем-брюле с карамельной подливкой</a>
       </div>
@@ -117,19 +163,27 @@
       </div>
 
 
-       <div id="map2" class="map">
-         <div class="contacts right">
+       <div class="map">
+         <div class="contacts-right">
   	       <p>Адрес главного офиса<br/> и офлайн магазина</p>
   	       <p class="adress">ул.Большая Конюшенная 19/8, Сантк-Петербург</p>
            <p>Для заказов по телефону</p>
   	       <p class="adress">+7 (812) 450-25-25</p>
   	       <p>(c 10 до 20 ежедневно)</p>
   	       <a class="btn" href="#">Форма обратной связи</a>
+        </div>
+       <div class="feedback-field">
+         <form action="#" method="post">
+           <h4>Мы обязательно вам ответим!</h4>
+           <input type="text" placeholder="Как вас зовут?">
+           <input type="email" placeholder="Ваша почта для ответа?">
+           <textarea rows="4" placeholder="Напишите что-нибудь..."></textarea>
+           <button type="submit">Отправить</button>
+         </form>
+       </div>
+    </div>
 
-          </div>
-      </div>
-
-         <footer>
+        <footer>
             <div class="social-left">
       	      <ul class="social">
       		      <li><a href="#">Twitter"</a></li>
