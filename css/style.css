@@ -57,16 +57,15 @@ body > input[type="radio"] {
 
 .main-menu .sub-menu {
   position: absolute;
-    z-index: 99;
-    display: none;
-    top: 37px;
-    left: -6px;
-    width: 143px;
-    border-radius: 5px;
-    background-color: #f8f7f4;
-    box-shadow: -moz-0 20px 20px 0 rgba(0, 0, 0, 0.4);
-    box-shadow: -webkit-0 20px 20px 0 rgba(0, 0, 0, 0.4);
-    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.4);
+  display: none;
+  top: 37px;
+  left: -6px;
+  width: 143px;
+  border-radius: 5px;
+  background-color: #f8f7f4;
+  box-shadow:    -moz-0 20px 20px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: -webkit-0 20px 20px 0 rgba(0, 0, 0, 0.4);
+  box-shadow:         0 20px 20px 0 rgba(0, 0, 0, 0.4);
 }
 
 .main-menu-section {
@@ -941,12 +940,13 @@ td {
 }
 
 .features {
-  min-height: 282px;
-  padding-bottom: 23px;
-  margin-bottom: 40px;
-  font-size: 0px;
-  background: #ede1c5 url("../img/pattern-wafer.jpg");
-  border-radius: 15px;
+    min-height: 282px;
+    padding-bottom: 23px;
+    margin-bottom: 40px;
+    font-size: 0px;
+    background: #ede1c5 url("../img/pattern-wafer.jpg");
+    border-radius: 15px;
+    position: relative;
 }
 
 .features-title {
@@ -1013,48 +1013,50 @@ td {
 
 
 .technology::before {
-  background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -619px;
-  content: "";
-  position: absolute;
-  top: 1400px;
-  left: 160px;
-  width: 50px;
-  height: 50px;
+   background: url("../img/sprite.png") no-repeat;
+    background-position: -10px -619px;
+    content: "";
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 .ingredient::before {
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -281px;
-  content: "";
-  position: absolute;
-  top: 1400px;
-  left: 710px;
-  width: 50px;
-  height: 50px;
+    background-position: -10px -281px;
+    content: "";
+    position: absolute;
+    top: 120px;
+    left: 570px;
+    width: 50px;
+    height: 50px;
 
+  
 }
 
 .quality::before {
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -740px;
-  content: "";
-  position: absolute;
-  top: 1510px;
-  left: 160px;
-  width: 50px;
-  height: 50px;
+    background-position: -10px -740px;
+    content: "";
+    position: absolute;
+    top: 230px;
+    left: 20px;
+    width: 50px;
+    height: 50px;
 }
 
 .delivery::before {
   background: url("../img/sprite.png") no-repeat;
-  background-position: -10px -1169px;
-  content: "";
-  position: absolute;
-  top: 1510px;
-  left: 710px;
-  width: 50px;
-  height: 50px;
+    background-position: -10px -1169px;
+    content: "";
+    position: absolute;
+    top: 230px;
+    left: 570px;
+    width: 50px;
+    height: 50px;
+
 }
 
 .features-item:nth-child(2n) {
@@ -1175,7 +1177,7 @@ td {
   font-size: 0;
   padding-top: 100px;
   background: url(../img/bg-map.jpg) no-repeat;
-  background-size: 100%;
+  background-size: 100%; 
 }
 
 
@@ -1546,7 +1548,7 @@ td {
 
 .range .range-stripe {
   position: relative;
-  z-index: -1;
+  z-index: 1;
   width: 188px;
   height: 4px;
   background-color: #d1dad3;
@@ -1554,25 +1556,25 @@ td {
 
 .range .range-stripe-shaded {
   position: absolute;
-   top: 16px;
-   left: 35px;
-   width: 110px;
-   height: 4px;
-   z-index: 1;
-   background-color: #f8f7f4;
+  top: 16px;
+  left: 35px;
+  width: 110px;
+  height: 4px;
+  z-index: 10;
+  background-color: #f8f7f4;
 }
 
 .range .range-toggle {
-      position: absolute;
-      top: 8px;
-      width: 20px;
-      height: 20px;
-      border-radius: 50%;
-      z-index: 1;
-      box-shadow: -moz-0 1px 1px 0 rgba(0, 0, 0, 0.1);
-      box-shadow: -webkit-0 1px 1px 0 rgba(0, 0, 0, 0.1);
-      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
-      background-color: #f8f7f4;
+  position: absolute;
+  top: 8px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  z-index: 20;
+  box-shadow:    -moz-0 1px 1px 0  rgba(0, 0, 0, 0.1);
+  box-shadow: -webkit-0 1px 1px 0  rgba(0, 0, 0, 0.1);
+  box-shadow:         0 1px 1px 0  rgba(0, 0, 0, 0.1);
+  background-color: #f8f7f4;
 }
 
 .range .first {
